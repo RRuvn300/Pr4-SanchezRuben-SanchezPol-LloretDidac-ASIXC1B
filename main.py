@@ -1,2 +1,0 @@
-print("sala itb")
-SDGSGSDGSGD
