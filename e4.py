@@ -12,3 +12,7 @@ o
 NEGRE="██"
 BLANC=" "
 """
+for i in range (7):
+    print("f")
+    for j in range (7):
+         print("f", end = " ")
