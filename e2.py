@@ -19,9 +19,9 @@ try:
     for i in range(n):
             for j in range(i + 1):
                 if i == n - 1 or (j == 0 or j == i):
-                    print(f"{i + 1}", end=" ")
+                    print(f"{i + 1}", end = " ")
                 else:
-                    print("", end=" ")
+                    print(" ", end=" ")
             if i != n - 1:
                 print()
 except:
