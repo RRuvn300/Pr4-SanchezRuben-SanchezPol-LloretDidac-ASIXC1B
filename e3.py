@@ -1,3 +1,17 @@
+"""
+Pol Sánchez
+Dídac Lloret
+Rubén Sánchez
+ASIXc1B
+Programa que mostra un triangle amb nombres a les cantonades.  Cal demanar quina alçada ha de tenir el triangle. Els valors permesos per a l'alçada son entre 2 i 9. (ambdós inclosos)
+"""
+
+"""
+
+
+
+
+
 try:
     #Definim el valor de sumsenar i sumparell a 0 i posem el input del número.
     sumsenar = 0

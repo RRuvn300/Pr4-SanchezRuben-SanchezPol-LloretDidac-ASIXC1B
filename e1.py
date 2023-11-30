@@ -24,7 +24,7 @@ try:
 
     print(f"\nResultats:\nPositius: {positius}\nNegatius: {negatius}\nZeros: {zeros}")
 
-except ValueError:
+except:
     print("Has d'introduir 10 nombres sencers separats per espais.")
 
 
