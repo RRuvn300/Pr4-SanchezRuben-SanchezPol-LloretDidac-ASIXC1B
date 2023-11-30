@@ -3,7 +3,8 @@ Pol Sánchez
 Dídac Lloret
 Rubén Sánchez
 ASIXc1B
-Programa que mostra un triangle amb nombres a les cantonades.  Cal demanar quina alçada ha de tenir el triangle. Els valors permesos per a l'alçada son entre 2 i 9. (ambdós inclosos)
+Programa que mostra un triangle amb nombres a les cantonades.  Cal demanar quina alçada ha de tenir el triangle.
+Els valors permesos per a l'alçada son entre 2 i 9. (ambdós inclosos)
 """
 
 try:
