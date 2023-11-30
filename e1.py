@@ -10,10 +10,11 @@ positius = 0
 negatius = 0
 zeros = 0
 
-for i in range(10):
-    try:
-        nombre = int(input("Introdueix un nombre sencer: "))
+try:
+    numeros = input("Introdueix 10 nombres sencers separats per espais: ")
+    numeros_lista = [int(num) for num in numeros.split()]
 
+    for nombre in numeros_lista:
         if nombre > 0:
             positius += 1
         elif nombre < 0:
@@ -21,8 +22,9 @@ for i in range(10):
         else:
             zeros += 1
 
-    except ValueError:
-        print("Has d'introduir un nombre sencer. Torna-ho a provar.")
+    print(f"\nResultats:\nPositius: {positius}\nNegatius: {negatius}\nZeros: {zeros}")
 
-print(f"\nResultats:\nPositius: {positius}\nNegatius: {negatius}\nZeros: {zeros}")
+except ValueError:
+    print("Has d'introduir 10 nombres sencers separats per espais.")
+
 
