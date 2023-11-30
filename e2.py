@@ -26,4 +26,3 @@ try:
                 print()
 except:
     print("!Escribe número entero¡")
-

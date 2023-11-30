@@ -27,5 +27,3 @@ try:
 
 except:
     print("Has d'introduir 10 nombres sencers separats per espais.")
-
-
